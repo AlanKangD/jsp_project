@@ -25,7 +25,7 @@
 			<tr>
 				<td>${dto.id }</td> <td>${dto.name }</td> 
 				<td>
-				<a href="content_view.jsp?id=${dto.id }">${dto.title } </a>
+				<a style="color: black;" href="content_view.jsp?id=${dto.id }">${dto.title } </a>
 				</td> 
 				<td>${dto.savedate }</td>
 				<td>${dto.hit }</td> <td>${dto.idgroup }</td> <td>${dto.step }</td> <td>${dto.indent }</td>

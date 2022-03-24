@@ -15,7 +15,7 @@
 <jsp:include page="../defualt/header.jsp"/>
 
 <div class="wrap">
-<form action="modify.jsp" method="post">
+<form action="${contextPath }/board/modify.jsp" method="post">
 	<table border="1">
 		<tr>
 			<th>번호</th> <td><input type="text" name="id" value="${dto.id }" readonly></td> 

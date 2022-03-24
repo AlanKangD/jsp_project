@@ -40,7 +40,7 @@
 	<tr>
 		<td>${d.id }</td> 
 		<td>${d.pwd }</td> 
-		<td><a href="${contextPath }/member/member_info.jsp?id=${d.id}">${d.name }</a></td> 
+		<td><a style="color: black; " href="${contextPath }/member/member_info.jsp?id=${d.id}">${d.name }</a></td> 
 		<td>${d.addr }</td>
 	</tr>	
 	</c:forEach>

@@ -14,7 +14,7 @@
 
 <div class="wrap">
 
-	<form action="${contextPath }/borad/write_save.jsp" method="post">
+	<form action="${contextPath }/board/write_save.jsp" method="post">
 		<table border="1">
 			<tr>
 				<th>이름</th> <td><input type="text" name="name"></td>

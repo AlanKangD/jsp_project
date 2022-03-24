@@ -21,7 +21,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <fmt:requestEncoding value="utf-8"/>
 <jsp:useBean id="dao" class="com.care.root.board.dao.BoardDAO"/>
-${dao.writeSave(param.name, param.title, param.content) }
+${dao.(param.name, param.title, param.content) }
 <c:redirect url="list.jsp"/>
 
 </body>
